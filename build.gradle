@@ -34,3 +34,7 @@ def   chant(){
 yayGradle0.dependsOn startSession
 yayGradle2.dependsOn yayGradle1,yayGradle0
 task groupTherapy(dependsOn:yayGradle2)
+
+task echo{
+    println('echo')
+}
